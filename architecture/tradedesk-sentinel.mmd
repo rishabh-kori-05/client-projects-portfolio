@@ -1,0 +1,9 @@
+flowchart TD
+    ADMIN[Administrator] --> DASH[TradeDesk Sentinel Dashboard]
+    DASH --> SERVER[Node.js Server]
+    SERVER --> POLICY[Device & Policy State]
+    SERVER <--> AGENT[Windows Agent]
+    AGENT --> CACHE[(Local SQLite Cache)]
+    AGENT --> WIN[Windows Integration / Enforcement]
+    AGENT --> EVENTS[Device & Activity Events]
+    EVENTS --> SERVER
