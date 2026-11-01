@@ -4,10 +4,6 @@
 
 TradeDesk POS is a desktop business application designed around wholesale and hawker billing workflows. The interface brings billing, inventory, masters, reports, ledger and payment operations into one application.
 
-## Problem addressed
-
-Wholesale operations need more than a simple point-of-sale screen. They need fast bill entry, repeatable party workflows, stock visibility, payment tracking and reports that connect daily transactions to inventory and account activity.
-
 ## Product workflows
 
 - Separate wholesale (`Bill_W`) and hawker (`Bill_H`) billing flows.
@@ -18,6 +14,16 @@ Wholesale operations need more than a simple point-of-sale screen. They need fas
 - Stock movement, sales, profit and godown reporting options.
 - Ledger and payment workflows.
 - Dashboard summaries for sales, bills generated, average bill value, collections and hawker issues.
+
+## Product screenshots
+
+The following screenshots show the dashboard and hawker billing interface. Sensitive values and identifying details have been selectively blurred; charts, layout and workflow controls remain visible.
+
+![TradeDesk POS business dashboard](../assets/screenshots/tradedesk-pos-dashboard.png)
+
+![TradeDesk POS hawker billing](../assets/screenshots/tradedesk-pos-hawker-billing.png)
+
+The stock-report screenshot is also included in the repository, but it displays an empty result state (“No data found”) and is not presented as evidence of populated reporting output.
 
 ## Technical implementation
 
@@ -43,17 +49,8 @@ The dashboard screenshot explicitly states that figures are computed from local 
 
 ## Verification boundaries
 
-The supplied screenshots show the dashboard, hawker billing and stock-report interface. The dashboard contains populated financial figures and the billing screenshot exposes a party name and previous balance. Those values must be redacted or replaced before publication and must not be represented as verified customer results.
+The supplied screenshots show the dashboard, hawker billing and stock-report interface. The dashboard contains populated financial figures and the billing screenshot exposes a party name and previous balance; these sensitive areas have been selectively blurred for public display.
 
 The stock-report screenshot supplied for this portfolio displayed “No data found”; it should not be used as evidence of populated report output.
 
 No public performance, uptime, customer-count or revenue claims are made here.
-
-## Suggested portfolio evidence
-
-Use sanitized screenshots of:
-- Business dashboard with synthetic figures.
-- Wholesale billing flow with synthetic party and item data.
-- Hawker billing flow with synthetic party and item data.
-- Stock report populated with clearly synthetic data.
-- Ledger/payment screen with all personal and financial details removed.
