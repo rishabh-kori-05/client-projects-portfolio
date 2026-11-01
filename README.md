@@ -45,7 +45,7 @@ No public performance, uptime, customer-count or revenue claims are made here.
 ## Contact
 
 - GitHub: [rishabh-kori-05](https://github.com/rishabh-kori-05)
-- LinkedIn: [Rishabh Kori](https://www.linkedin.com/in/rishabh-kori-2bb172391/)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/rishabh-kori-2bb172391/)
 
 ## Confidentiality
 
