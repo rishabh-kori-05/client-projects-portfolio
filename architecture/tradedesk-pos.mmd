@@ -1,0 +1,13 @@
+flowchart TD
+    USER[Cashier / Operator] --> UI[Electron Desktop UI]
+    UI --> BILL[Wholesale & Hawker Billing]
+    UI --> STOCK[Inventory & Stock Workflows]
+    UI --> REPORTS[Sales / Stock / Profit Reports]
+    UI --> LEDGER[Ledger & Payments]
+    BILL --> API[Node.js Application Backend]
+    STOCK --> API
+    REPORTS --> API
+    LEDGER --> API
+    API --> DB[(Local SQLite Database)]
+    API --> PRINT[PDF / Thermal Printing]
+    API --> BACKUP[Backup & Restore]
