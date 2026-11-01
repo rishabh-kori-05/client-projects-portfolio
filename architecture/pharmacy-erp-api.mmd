@@ -1,0 +1,18 @@
+flowchart TD
+    Client[POS / Admin Client] --> API[Express API]
+    API --> MW[Security Headers / Request Context / Logger]
+    MW --> AUTH[JWT Authentication]
+    AUTH --> ROUTES[Versioned API Routes]
+    ROUTES --> BILL[Billing Module]
+    ROUTES --> INV[Inventory Module]
+    ROUTES --> USERS[Users & RBAC Module]
+    ROUTES --> RX[Prescriptions Module]
+    ROUTES --> REPORTS[Reports Module]
+    BILL --> TX[Transactional Service Layer]
+    INV --> TX
+    TX --> DB[(PostgreSQL)]
+    USERS --> DB
+    RX --> DB
+    REPORTS --> DB
+    TX --> AUDIT[Audit Log Records]
+    AUDIT --> DB
