@@ -2,7 +2,25 @@
 
 Selected business software projects covering POS/ERP workflows, backend engineering and Windows workspace control.
 
-This repository contains **sanitized case studies and architecture notes only**. It does not contain client source code, customer records, production credentials, databases, license material or deployment secrets.
+This repository contains **sanitized case studies, product screenshots and architecture notes only**. It does not contain client source code, customer records, production credentials, databases, license material or deployment secrets.
+
+## Featured work
+
+### TradeDesk POS
+
+Desktop business software for wholesale and hawker billing, inventory, reports, ledger and payment workflows.
+
+![TradeDesk POS business dashboard](assets/screenshots/tradedesk-pos-dashboard.png)
+
+[View TradeDesk POS case study](case-studies/tradedesk-pos.md)
+
+### TradeDesk Sentinel
+
+Windows workspace administration interface for device status, lock controls, approved applications and websites, and activity monitoring.
+
+![TradeDesk Sentinel administration dashboard](assets/screenshots/tradedesk-sentinel-dashboard.png)
+
+[View TradeDesk Sentinel case study](case-studies/tradedesk-sentinel.md)
 
 ## Case studies
 
@@ -20,9 +38,9 @@ This repository contains **sanitized case studies and architecture notes only**.
 
 ## Evidence and accuracy
 
-The case studies describe implemented functionality based on available project context, source inspection and supplied product screenshots. They do not claim independent security certification, production-scale performance, customer counts, uptime or deployment outcomes.
+The screenshots illustrate product interfaces and workflows; they are not independent proof of production deployment, live endpoint enforcement, customer outcomes or business performance. See each case study's **Verification boundaries** section for known limitations.
 
-Some implementation details still require a complete source/test audit before being presented as verified. See each case study's **Verification boundaries** section.
+No public performance, uptime, customer-count or revenue claims are made here.
 
 ## Contact
 
@@ -31,4 +49,4 @@ Some implementation details still require a complete source/test audit before be
 
 ## Confidentiality
 
-All product names and screenshots should be reviewed for client permission before public release. Replace any identifying customer, supplier, device, network or financial information with synthetic values before adding screenshots.
+Screenshots in this repository are intended to omit or obscure sensitive information. If you spot any customer, supplier, device, network, financial or authentication detail that should not be public, please flag it so it can be removed.
